@@ -1,0 +1,57 @@
+# THIS IS A HEADER
+
+## Lorem Ipsum
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam finibus elit et eros scelerisque, vel posuere quam tempus. Nam in egestas felis, sed faucibus nibh. Ut sed turpis ex. Suspendisse potenti. Sed sed metus vulputate, condimentum elit eu, sagittis metus. Sed dui magna, luctus eget risus vel, consequat mattis leo. Pellentesque feugiat velit id quam fringilla varius. In eget lorem a ex facilisis maximus eget ac eros. Suspendisse scelerisque fermentum erat non elementum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam tempor semper massa ut lacinia.
+
+Vivamus aliquet, elit quis volutpat tempor, dolor nisl tincidunt velit, non mollis mauris libero ac quam. Aliquam sit amet semper odio. Sed tempus urna sed nisi efficitur vestibulum non in felis. In ultricies purus vel mi auctor vestibulum. Cras auctor porta ex. Praesent est est, consectetur vitae magna varius, condimentum feugiat odio. Sed laoreet enim et ante feugiat volutpat. Cras ullamcorper metus magna, ut euismod nisi accumsan eu. Proin iaculis augue id malesuada pellentesque. Suspendisse potenti. Pellentesque quis pulvinar libero. Sed vel erat ligula. Sed at semper ligula.
+
+## Formatted Text
+In order to create valid [HTML], you need properly
+coded syntax that can be cumbersome for 
+"non-programmers" to write. Sometimes, you just want
+to easily make certain words **bold**, and certain 
+words *italicized* without having to remember the 
+syntax. Additionally, for example, creating lists:
+
+* should be easy
+* should not involve programming
+
+Note:
+:   Equation (@foo) is numbered. 
+
+
+## Pandoc math demos
+
+This first equation, $a^2 + b^2 = c^2$, is inline, in that it appears in the middle of a sentence. 
+
+$$v(t) = v_0 + \frac{1}{2}at^2$$
+
+$$\gamma = \frac{1}{\sqrt{1 - v^2/c^2}}$$
+
+$$\exists x \forall y (Rxy \equiv Ryx)$$
+
+$$p \wedge q \models p$$
+
+$$\int_{0}^{1} x dx = \left[ \frac{1}{2}x^2 \right]_{0}^{1} = \frac{1}{2}$$
+
+(@foo) $$e^x = \sum_{n=0}^\infty \frac{x^n}{n!} = \lim_{n\rightarrow\infty} (1+x/n)^n$$
+
+
+## Code Block
+``` python
+class BankAccount(object):
+    def __init__(self, initial_balance=0):
+        self.balance = initial_balance
+    def deposit(self, amount):
+        self.balance += amount
+    def withdraw(self, amount):
+        self.balance -= amount
+    def overdrawn(self):
+        return self.balance < 0
+my_account = BankAccount(15)
+my_account.withdraw(5)
+print my_account.balance
+```
+
+[HTML]: http://en.wikipedia.org/wiki/HTML
+
