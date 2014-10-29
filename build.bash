@@ -5,7 +5,7 @@ mkdir images
 mkdir html
 
 printf "Building htex files... "
-pandoc --gladtex -S -s -o build/test.htex test.mmd
+pandoc --gladtex -t html5 -o build/test.htex src/test.mmd
 printf "DONE\n"
 
 printf "Generating GladTeX images... "
