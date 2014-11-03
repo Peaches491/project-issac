@@ -1,0 +1,24 @@
+{
+  "name": "project-issac",
+  "version": "1.0.0",
+  "main": "src/",
+  "ignore": [
+    "html/",
+    "images/",
+    "build",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.0"
+  },
+  "homepage": "https://github.com/Peaches491/project-issac",
+  "authors": [
+    "Daniel Miller <Peaches491@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true
+}

@@ -56,3 +56,6 @@ src/*.htex
 images/
 html/
 vendor/
+webroot/
+bower_components/
+bootswatch/
